@@ -1,6 +1,10 @@
+module;
 #include <iostream>
 
-int main (int argc, char* argv[])
+export module hello;
+
+export
+int hello(int argc, char* argv[])
 {
   using namespace std;
 
@@ -11,4 +15,8 @@ int main (int argc, char* argv[])
   }
 
   cout << "Hello, " << argv[1] << '!' << endl;
+  return 0;
 }
+
+
+
