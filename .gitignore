@@ -5,3 +5,6 @@
 .build2/local/
 
 /build-*/
+
+/vs-project/hello/x64/
+/vs-project/hello/.vs/
